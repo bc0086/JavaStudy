@@ -1,3 +1,4 @@
+// 양방향 통신 - 클라이언트측
 package Inflearn;
 
 import java.io.DataInputStream;
