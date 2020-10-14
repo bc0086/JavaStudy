@@ -1,7 +1,9 @@
-package Etc;
 /*
   	구구단인데 짝수는 5단 이하, 홀수는 6단 이상만 출력되게 하시오.
  */
+
+package Etc;
+
 public class ilsunTest {
 
 	public static void main(String[] args) {
