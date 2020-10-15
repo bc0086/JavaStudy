@@ -1,10 +1,11 @@
+// 소켓1
 package Inflearn;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class MainSocket {
+public class MainSocket1 {
 
 	public static void main(String[] args) {
 		
