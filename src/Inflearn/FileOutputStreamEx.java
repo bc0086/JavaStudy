@@ -1,3 +1,4 @@
+// 파일 아웃풋스트림
 package Inflearn;
 
 import java.io.FileNotFoundException;
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MainClass02 {
+public class FileOutputStreamEx {
 	public static void main(String[] args) {
 		
 		// write()

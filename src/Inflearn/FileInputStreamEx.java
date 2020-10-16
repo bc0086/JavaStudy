@@ -1,3 +1,4 @@
+// 파일 인풋스트림
 package Inflearn;
 
 import java.io.FileInputStream;
@@ -6,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.FileSystemNotFoundException;
 
-public class MainClass {
+public class FileInputStreamEx {
 
 	public static void main(String[] args) {
 		
@@ -38,7 +39,7 @@ public class MainClass {
 		// read(byte[])
 		InputStream inputStream = null;
 		try {
-			inputStream = new FileInputStream("C:\\03Workspace\\hello.txt");
+			inputStream = new FileInputStreamEx("C:\\03Workspace\\hello.txt");
 			int data = 0;
 			byte[] bs = new byte[3];
 			
