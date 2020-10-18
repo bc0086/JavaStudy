@@ -1,3 +1,4 @@
+// hello텍스트 문서의 내용을 읽어온다.
 package Inflearn;
 
 import java.io.BufferedReader;
@@ -9,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class MainClass6 {
+public class BufferedReaderEx {
 
 	public static void main(String[] args) {
 		
