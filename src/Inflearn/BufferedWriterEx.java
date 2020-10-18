@@ -1,3 +1,4 @@
+// hello.txt문서를 만들고 내용이 입력된다.
 package Inflearn;
 
 import java.io.BufferedReader;
@@ -11,7 +12,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class MainClass7 {
+public class BufferedWriterEx {
 
 	public static void main(String[] args) {
 		
@@ -21,7 +22,7 @@ public class MainClass7 {
 		FileWriter fw = null;
 		
 		try {
-			String str = "Hello Java World ~~ \n";
+			String str = "Hello Java World!!! ~~ \n";
 			str += "Hello C World~~ \n";
 			str += "Hello C++ World~~ \n";
 			
