@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.FileSystemNotFoundException;
 
 public class FileInputStreamEx {
 
@@ -39,7 +38,7 @@ public class FileInputStreamEx {
 		// read(byte[])
 		InputStream inputStream = null;
 		try {
-			inputStream = new FileInputStreamEx("C:\\03Workspace\\hello.txt");
+			inputStream = new FileInputStream("C:\\03Workspace\\hello.txt");
 			int data = 0;
 			byte[] bs = new byte[3];
 			
