@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class MainClass3 {
+public class DataInputOutputStream {
 
 	public static void main(String[] args) {
 		InputStream inputStream = null;
