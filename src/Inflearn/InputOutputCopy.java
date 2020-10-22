@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class MainClass5 {
+public class InputOutputCopy {
 
 	public static void main(String[] args) {
 		InputStream inputStream = null;
