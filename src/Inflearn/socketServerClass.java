@@ -40,7 +40,7 @@ public class socketServerClass {
 				String clientMessage = dataInputStream.readUTF();
 				System.out.println("clientMessage : " + clientMessage);
 				
-				dataOutputStream.writeUTF("메시지 전송 완료");
+				dataOutputStream.writeUTF("메시지 전송 완료.");
 				dataOutputStream.flush();
 				
 				if(clientMessage.equals("STOP")) break;
